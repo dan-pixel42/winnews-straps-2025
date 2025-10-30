@@ -101,6 +101,7 @@ const WINNewsStraps = () => {
 					left: 0
 				}}
 			>
+
 				{/* White line above strap */}
 				<motion.div
 					initial={{ scaleX: 0 }}
@@ -136,14 +137,16 @@ const WINNewsStraps = () => {
 					}}
 				/>
 
+
+
 				{/* Mask container */}
 				<div
 					style={{
 						position: 'absolute',
 						bottom: `${preset.primaryLowerThirdBackground.bottom}px`,
 						left: 0,
-
 						width: '100%',
+						
 						height: `${preset.primaryLowerThirdBackground.height}px`
 					}}
 				>
@@ -245,7 +248,10 @@ const WINNewsStraps = () => {
 								fontFamily: fontFamily,
 								fontWeight: textConfig.fontWeight,
 								textAlign: textConfig.textAlign,
-								whiteSpace: 'nowrap'
+								whiteSpace: 'nowrap',
+								overflow: "visible",
+								paddingLeft: "3px",
+								paddingRight: "3px"
 							}
 
 							// Position element based on text alignment
@@ -270,6 +276,7 @@ const WINNewsStraps = () => {
 								textStyle.background = textConfig.gradient
 								textStyle.backgroundClip = 'text'
 								textStyle.color = 'transparent'
+
 							} else {
 								textStyle.color = textConfig.color
 							}

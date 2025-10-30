@@ -1,11 +1,11 @@
 // Configuration for WIN lower third layouts
 const baseConfiguration = {
 	primaryLowerThirdBackground: {
-		bottom: 85,
+		bottom: 68,
 		height: 130
 	},
 	lineHeight: 8,
-	animWipeIn: 0.6,
+	animWipeIn: 0.8,
 	animWipeOut: 0.6,
 	animStagger: 0.05,
 	maxWidthPrimary: 1200,
@@ -29,7 +29,7 @@ export const strapsConfig = {
 			{ 
 				textType: 'secondaryText',
 				fontFamily: 'fontProximaNovaBold',
-				marginBottom: 5,
+				marginBottom: 6,
 				fontSize: 38, 
 				color: '#576687', 
 				textAlign: 'left',
