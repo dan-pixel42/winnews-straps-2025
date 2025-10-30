@@ -44,8 +44,10 @@ const WINNewsStraps = () => {
 	// Show/hide strap when NXT plays or stops the template
 	useEffect(() => {
 
+		
 		if (isPlaying) {
 
+			if (!primaryText) return
 			setStrapVisible(true)
 
 			// Measure and scale primaryText
