@@ -1,0 +1,47 @@
+{
+	"name": "2025 WIN News Lower Third",
+	"width": 1920,
+	"height": 1080,
+	"schema": {
+		"strapType": {
+			"type": "string",
+			"label": "Strap Type",
+			"default": "name super"
+		},
+		"primaryText": {
+			"type": "string",
+			"label": "Primary Text Line"
+		},
+		"secondaryText": {
+			"type": "string",
+			"label": "Secondary Text Line"
+		},
+		"displayDuration": {
+			"type": "number",
+			"label": "Display Duration (seconds, leave empty for manual control)"
+		}
+	},
+	"previewData": {
+		"Person Name": {
+			"strapType": "name super",
+			"primaryText": "PERSON NAME",
+			"secondaryText": "LOCATION",
+			"displayDuration": 4
+		},
+		"Weather Alert - Manual Control": {
+			"strapType": "breaking news",
+			"primaryText": "WEATHER ALERT"
+		},
+		"Name Super - Manual Control": {
+			"strapType": "name super",
+			"primaryText": "LINE OF TEXT",
+			"secondaryText": "DESCRIPTION",
+			"displayDuration": 6
+		},
+		"Website - Auto Hide": {
+			"strapType": "single line",
+			"primaryText": "wintv.com.au",
+			"displayDuration": 4
+		}
+	}
+}
